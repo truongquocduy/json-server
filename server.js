@@ -76,18 +76,18 @@ server.post('/register', (req, res) => {
       const id = req.body.id
       const password = req.body.password
   
-      if (isAuthenticated({id, password}) === false) {
-        return
+      if (isAuthenticated({id, password}) === true) {
+          const access_token = createToken({id, password})
+          res.status(200).json({
+            status: 200,
+            message: "Success",
+            data: {
+              access_token,
+              id
+            }
+          })
       }
-      const access_token = createToken({id, password})
-      res.status(200).json({
-        status: 200,
-        message: "Success",
-        data: {
-          access_token,
-          id
-        }
-      })
+      
   })
   //Kiểm tra Token
   server.use('/auth',(req, res, next) => {
