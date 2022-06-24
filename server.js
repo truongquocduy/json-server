@@ -509,11 +509,6 @@ server.get('/studyings/:mssv', (req, res) => {
               'studying': db.studyings.filter((item)=>item.massv == mssv)
             }
           })
-    } else {
-      return res.status(401).json({
-        status: 401,
-        message: "Id không tồn tại",
-      })
     }
   })
 server.post('/studyings', (req, res) => {
