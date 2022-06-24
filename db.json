@@ -1,0 +1,314 @@
+{
+    "accounts": [
+        {
+            "id": "501200534",
+            "password": "202cb962ac59075b964b07152d234b70",
+            "date": "2022-01-04"
+        },
+        {
+            "id": "501200514",
+            "password": "25f9e794323b453885f5181f1b624d0b",
+            "date": ""
+        }
+    ],
+    "users": [
+        {
+            "id": "501200534",
+            "name": "Trương Quốc Duy",
+            "classroom": "CD20CT12",
+            "gender": "Nam",
+            "image": "nam.png",
+            "birth": "2002-01-01",
+            "address": "Bac Lieu City, Bac Lieu",
+            "phone": "0369082061",
+            "email": "quocduy2002@gmail.com",
+            "diemtb": 6
+        },
+        {
+            "id": "501200514",
+            "name": "Từ Phước Trung",
+            "classroom": "CD20CT12",
+            "gender": "Nam",
+            "image": "nam.png",
+            "birth": "2002-01-01",
+            "address": "TP.Hồ Chí Minh",
+            "phone": "0123456789",
+            "email": "trungtu@gmail.com",
+            "diemtb": 10
+        }
+    ],
+    "courses": [
+        {
+            "id": "kh01",
+            "name": "HTML, CSS từ Zero đến Hero",
+            "task": "Trong khóa này chúng ta sẽ cùng nhau xây dựng giao diện 2 trang web là The Band & Shopee.",
+            "image": "1.png",
+            "price": 2350000,
+            "baihoc": []
+        },
+        {
+            "id": "kh02",
+            "name": "Xây Dựng Website với ReactJS",
+            "task": "Khóa học ReactJS từ cơ bản tới nâng cao, kết quả của khóa học này là bạn có thể làm hầu hết các dự án thường gặp với ReactJS. Cuối khóa học này bạn sẽ sở hữu một dự án giống Tiktok.com, bạn có thể tự tin đi xin việc khi nắm chắc các kiến thức được chia sẻ trong khóa học này.",
+            "image": "2.png",
+            "price": 5300000,
+            "baihoc": []
+        },
+        {
+            "id": "kh03",
+            "name": "JavaScript Cơ Bản",
+            "task": "Học Javascript cơ bản phù hợp cho người chưa từng học lập trình. Với hơn 100 bài học và có bài tập thực hành sau mỗi bài học.",
+            "image": "3.png",
+            "price": 4060000,
+            "baihoc": []
+        },
+        {
+            "id": "kh04",
+            "name": "Kiến Thức Nhập Môn",
+            "task": "Để có cái nhìn tổng quan về ngành IT - Lập trình web các bạn nên xem các videos tại khóa này trước nhé.",
+            "image": "4.png",
+            "price": 0,
+            "baihoc": []
+        },
+        {
+            "id": "kh05",
+            "name": "Responsive Với Grid System",
+            "task": "Trong khóa này chúng ta sẽ học về cách xây dựng giao diện web responsive với Grid System, tương tự Bootstrap 4.",
+            "image": "5.png",
+            "price": 1800000,
+            "baihoc": []
+        }
+    ],
+    "blogs": [
+        {
+            "mabl": "1",
+            "massv": "501200534",
+            "tieude": "Thời gian và Động lực",
+            "noidungngan": "Có lẽ cũng rất lâu rồi mà tôi chưa đụng đến thứ được gọi là “timetable”. Hay dân dã hơn thì người ta hay gọi là “Lịch thường nhật”",
+            "noidung": [
+                "Có lẽ cũng rất lâu rồi mà tôi chưa đụng đến thứ được gọi là “timetable”. Hay dân dã hơn thì người ta hay gọi là “Lịch thường nhật”, còn đối với học sinh, sinh viên gọi là “thời khóa biểu”. Chắc hẳn nhiều người sẽ thắc mắc tại sao tôi là sinh viên mà lại lâu rồi chưa đụng đến cái mà sinh viên đều gọi là thời khóa biểu. Đương nhiên học sinh hay sinh viên đều cần có nó để xem lịch học, để không một buổi sáng nào bị quên mất kiến thức.",
+                "Trong bài viết này, ý tôi muốn nói là “timetable” hay là cách sắp sếp thời gian cho từng môn học hoặc việc gì đó ghi chi chít trên một bảng lịch. Đến tận bây giờ tôi mới học được cách sắp xếp thời gian, phân chia từng môn học theo lịch học trên trường. Khi chúng ta còn trẻ còn sức khỏe còn học tập và lao động thì thời gian là thứ vô cùng quan trọng nếu như chúng ta biết sắp xếp và phân bổ hợp lý thì sẽ kiểm soát được nó, thay vì chúng ta muốn học một cái gì đó mà cứ than vãn rằng: “Thôi chắc không có thời gian để học đâu” hay kiểu thấy một khóa học dài thì lại than: “Haizz… Học khóa này lâu thế. Tốn thời gian” thì các bạn đang cố tìm kiếm biện minh cho sự lười biếng của các bạn mà thôi, có thể dành vài tiếng đồng hồ ra chơi game, lướt facebook, tiktok mà bỏ mấy phút ra học thì lại không làm được và cố tỏ ra mình là người bận rộn. Đó là chẳng qua chưa kiểm soát được thời gian nên sẽ có tình trạng lúc thì làm rất nhiều việc nhưng lại có lúc mất cân bằng chả muốn làm gì cả, làm một việc là ngại không muốn làm. Đặc biệt chúng ta trong thời gian tự học thì càng cần phải kiểm soát được nó như một cái gì đấy làm động lực giúp ta học hỏi thêm nhiều thứ hay ho hơn."
+            ],
+            "hinhanh": "blog1.jpg",
+            "ngaydang": "2022-01-01"
+        },
+        {
+            "mabl": "2",
+            "massv": "501200514",
+            "tieude": "Cấu trúc cơ bản của HTML",
+            "noidungngan": "Các thẻ ở đây hoạt động giống như các vùng chứa, nó chứa thông tin nằm giữa 2 thẻ mở và đóng. Các ký tự trong ngoặc cho ta biết lo",
+            "noidung": [
+                "Các thẻ ở đây hoạt động giống như các vùng chứa, nó chứa thông tin nằm giữa 2 thẻ mở và đóng. Các ký tự trong ngoặc cho ta biết loại thẻ, mục đích của thẻ. Ví dụ: trong các thẻ ở trên p là viết tắt của đoạn văn (paragraph). Thẻ mở < p> được cấu tạo bởi dấu nhỏ hơn nằm bên trái, tiếp đến là kí tự “p” và cuối cùng là dấu lớn hơn. Thẻ đóng < /p> được cấu tạo cơ bản giống thẻ mở của nó nhưng nó thêm “/” vào trước kí tự “p”. Body, Head & Title < !DOCTYPE html> < html> < head> <meta charset=“UTF-8”> < title>Tiêu đề/Nhan đề bài viết < /title> < /head> < body> Nội dung của trang sẽ nằm ở đây < /body> < /html>",
+                "< !DOCTYPE html> Khai báo đây là một file có định dạng là HTML5 để giúp trình duyệt biết bạn đang dùng phiên bản html bao nhiêu, có cũng được, không có cũng được nhưng sẽ bị hạn chế nhiều thẻ mới, thuộc tính trong thẻ mà trình duyệt không phát hiện được. Thẻ <html> Cấu trúc file html Thẻ < body> Nằm sau thẻ < head>, có thẻ đóng < /body> nằm trước < /html>. Body là nơi chứa những gì mà mọi người sẽ thấy trên trang như thanh menu, banner, quảng cáo. Thẻ < head> Nằm sau thẻ < html>, có thẻ đóng < /head>, nó chứa những thẻ khai báo thông tin cho trang như tiêu đề, mô tả, bảng mã ký tự. head không hiển thị nội dung những gì nó chứa đựng ra ngoài. Thuộc tính (attribute) charset nằm trong thẻ meta có nhiệm vụ khai báo bảng mã, ngôn ngữ tiếng việt nên dùng UTF-8 Thẻ < title> dùng để khai báo tiêu đề của trang, và gần như đây là bắt buộc phải có trong một file html."
+            ],
+            "hinhanh": "blog2.jpg",
+            "ngaydang": "2020-01-10"
+        },
+        {
+            "mabl": "3",
+            "massv": "501200534",
+            "tieude": "Lập trình hướng đối tượng oop",
+            "noidungngan": "Hi, lại là mình đây hehe. Hôm nay mình chia sẻ về những suy nghĩ sai của một người mới (cụ thể hơn là các bác sinh viên) tham gia ",
+            "noidung": [
+                "Hi, lại là mình đây hehe. Hôm nay mình chia sẻ về những suy nghĩ sai của một người mới (cụ thể hơn là các bác sinh viên) tham gia ngành IT này nha ?.\r\n\r\nĐịnh nói gì mà quên bà nó rồi ?? vào luôn nhỉ.",
+                "1. Ngành IT lương cao lắm !\r\nCâu nói muôn thuở ? và câu chuyện “Tôi có thằng em sinh năm 96 ngành cơ khí …”. Theo ý kiến của mình thì công nhận ngành IT nếu so sánh các ngành học khác thì lương của ngành IT cao hơn 1 chút ( 1 chút thôi nhé :v). Còn câu chuyện có người học đạt mức lương 3000-5000$/1 tháng cái này thì trình độ phải tầm senior trở lên thì hẳn mơ đến nhé ?. Các bác sinh viên ra trường hay thực tập full time thì lương căn bản từ 7 - 8tr là thấy cao lắm rồi nha.\r\n\r\nỞ đây mình thấy trước đây có nhiều bài báo nói về sinh viên IT kiếm thêm được rất nhiều tiền từ việc freelancer, kiếm tiền từ freelancer thực sự rất khó nếu bạn là sinh viên giỏi là chưa đủ mà phải là cực cực giỏi mới có thể cạnh tranh đc job, đa phần freelancer dành cho mấy ông làm lâu năm trình độ cao thì sẽ dễ có job hơn.",
+                "2. Giỏi các môn tự nhiên thì mới thể theo được ngành\r\nHehe cái này là quan điểm sai lầm đó nhé các bác gặp đứa nào nói thế thì vã vô mồm nó 3 phát ? (nếu nó to hơn thì thôi nhé ?). Theo mình thì cái quan điểm chỉ đúng 1 phần nào đó thôi, bạn giỏi các môn tự nhiên đó là 1 lợi thế vì những môn đấy luyện cho bạn suy nghĩ theo kiểu logic chứ ko phải bắt buộc bạn phải giỏi.\r\n\r\nMinh chứng từ mình là ngày trước mình thi đại học chỉ có 15đ thôi ?, bây giờ mình vẫn đi làm đc đấy thôi nên đừng để cái suy nghĩ đó trở thành áp lực của bạn nhé. 1 minh chứng khác là các bác thấy mấy đứa tầm 8-15 tuổi được các báo chí tung hô là hacker các thứ đấy, tầm tuổi đó làm gì đã học qua tích phân hay đạo hàm đâu ?. Ngành dev nói về toán thì chắc cộng trừ nhân chia là chủ yếu, theo mình được biết thì nếu bạn theo ngành lập trình game thì giỏi toán đó là 1 yêu cầu đấy nhé."
+            ],
+            "hinhanh": "blog3.jpg",
+            "ngaydang": "2022-01-14"
+        },
+        {
+            "mabl": "4",
+            "massv": "501200542",
+            "tieude": "Những cách để tiến bộ vượt bậc trong lĩnh vực IT",
+            "noidungngan": "Hi, xin chào các bác lại là mình đây, dạo này hơi bận rộn công việc nên cũng ko có nhiều thời gian để viết blog ? (thực ra cũng do",
+            "noidung": [
+                "Hi, xin chào các bác lại là mình đây, dạo này hơi bận rộn công việc nên cũng ko có nhiều thời gian để viết blog ? (thực ra cũng do lười thôi :v).\r\n\r\nDạo gần đây mình nhận thấy các bác mới học lập trình đang muốn cải thiện kỹ năng coding của mình. Nên hôm nay mình sẽ chia sẻ cách mình học và tiến bộ trong ngành lập trình nhé.\r\n\r\nLet’s go ? !!!\r\n\r\n",
+                "1. Cơ bản luôn là quan trọng\r\nNhư mình nói rất rất nhiều lần ở những bài viết trước thì mình để giỏi trong ngành ko nhất thiết bạn phải giỏi mấy môn tự nhiên trong trường. Theo mình những bạn giỏi các môn đó ban đầu sẽ hơi khó tiếp cận các ngôn ngữ lập trình. Bởi vì khi bạn học bắt đầu học ngôn ngữ lập trình thì bạn sẽ học những khái niệm mới hoàn toàn so với ở cấp dưới mà bạn học.\r\n\r\nNhững thứ các bác sẽ tiếp cận là biến, hàm, kiểu dữ liệu, vòng lặp, bla bla… những khái niệm này khá lạ lẫm khi bắt đầu học. Ở đây mình muốn nói hãy học kĩ cơ bản thì sau này việc nâng cao sẽ dễ dàng hơn ?.\r\n\r\nBản thân mình đã từng học theo kiểu nhạy vót ? và đến 1 lúc nào đó là mình ăn hành do những cái cơ bản luôn. Sau mình phải học lại học cơ bản kĩ càng hơn. Cơ bản luôn là quan trọng hãy học thật kĩ lưỡng\r\n"
+            ],
+            "hinhanh": "blog4.png",
+            "ngaydang": "2022-01-14"
+        },
+        {
+            "mabl": "5",
+            "massv": "501200514",
+            "tieude": "GenZ theo ngành IT và suy nghĩ hơi hơi sai lệch",
+            "noidungngan": "Hi, lại là mình đây hehe. Hôm nay mình chia sẻ về những suy nghĩ sai của một người mới (cụ thể hơn là các bác sinh viên) tham gia ",
+            "noidung": [
+                "1. Ngành IT lương cao lắm !\r\nCâu nói muôn thuở ? và câu chuyện “Tôi có thằng em sinh năm 96 ngành cơ khí …”. Theo ý kiến của mình thì công nhận ngành IT nếu so sánh các ngành học khác thì lương của ngành IT cao hơn 1 chút ( 1 chút thôi nhé :v). Còn câu chuyện có người học đạt mức lương 3000-5000$/1 tháng cái này thì trình độ phải tầm senior trở lên thì hẳn mơ đến nhé ?. Các bác sinh viên ra trường hay thực tập full time thì lương căn bản từ 7 - 8tr là thấy cao lắm rồi nha.\r\n\r\nỞ đây mình thấy trước đây có nhiều bài báo nói về sinh viên IT kiếm thêm được rất nhiều tiền từ việc freelancer, kiếm tiền từ freelancer thực sự rất khó nếu bạn là sinh viên giỏi là chưa đủ mà phải là cực cực giỏi mới có thể cạnh tranh đc job, đa phần freelancer dành cho mấy ông làm lâu năm trình độ cao thì sẽ dễ có job hơn.",
+                "2. Giỏi các môn tự nhiên thì mới thể theo được ngành\r\nHehe cái này là quan điểm sai lầm đó nhé các bác gặp đứa nào nói thế thì vã vô mồm nó 3 phát ? (nếu nó to hơn thì thôi nhé ?). Theo mình thì cái quan điểm chỉ đúng 1 phần nào đó thôi, bạn giỏi các môn tự nhiên đó là 1 lợi thế vì những môn đấy luyện cho bạn suy nghĩ theo kiểu logic chứ ko phải bắt buộc bạn phải giỏi.\r\n\r\nMinh chứng từ mình là ngày trước mình thi đại học chỉ có 15đ thôi ?, bây giờ mình vẫn đi làm đc đấy thôi nên đừng để cái suy nghĩ đó trở thành áp lực của bạn nhé. 1 minh chứng khác là các bác thấy mấy đứa tầm 8-15 tuổi được các báo chí tung hô là hacker các thứ đấy, tầm tuổi đó làm gì đã học qua tích phân hay đạo hàm đâu ?. Ngành dev nói về toán thì chắc cộng trừ nhân chia là chủ yếu, theo mình được biết thì nếu bạn theo ngành lập trình game thì giỏi toán đó là 1 yêu cầu đấy nhé."
+            ],
+            "hinhanh": "blog5.png",
+            "ngaydang": "2022-01-03"
+        }
+    ],
+    "comments": [],
+    "schedules": [
+        {
+            "id": "1",
+            "lop": "CD20CT12",
+            "tenhocphan": "Ngôn Ngữ PHP",
+            "giangvien": "Châu Thị Trúc Ly",
+            "thu": "2",
+            "thoigian": "1 > 5",
+            "phong": "B.402"
+        },
+        {
+            "id": "2",
+            "lop": "CD20CT12",
+            "tenhocphan": "Quản lý Dự án Agile",
+            "giangvien": "Bùi Thị Thu Thủy",
+            "thu": "3",
+            "thoigian": "1 > 3",
+            "phong": "B.405"
+        },
+        {
+            "id": "3",
+            "lop": "CD20CT12",
+            "tenhocphan": "Lập trình giao diện web 1",
+            "giangvien": "Nguyễn Trung Kiên",
+            "thu": "4",
+            "thoigian": "7 > 11",
+            "phong": "B.403"
+        },
+        {
+            "id": "4",
+            "lop": "CD20CT12",
+            "tenhocphan": "Lập trình ứng dụng đa nền tảng",
+            "giangvien": "Trương Châu Long",
+            "thu": "5",
+            "thoigian": "7 > 11",
+            "phong": "B.502"
+        },
+        {
+            "id": "5",
+            "lop": "CD20CT12",
+            "tenhocphan": "Lập trình web phía máy chủ",
+            "giangvien": "Trương Châu Long",
+            "thu": "6",
+            "thoigian": "1 > 5",
+            "phong": "B.404"
+        }
+    ],
+    "studyings": [
+        {
+            "id": 0,
+            "makhoahoc": "kh02",
+            "massv": "501200534",
+            "img": "2.png",
+            "name": "Xây Dựng Website với ReactJS",
+            "thi1": 10,
+            "thi1_trangthai": false,
+            "thi2": 10,
+            "thi2_trangthai": true,
+            "sobaidahoc": 2,
+            "ngaydangky": "2022-04-23"
+        },
+        {
+            "id": 0,
+            "makhoahoc": "kh01",
+            "massv": "501200534",
+            "img": "1.png",
+            "name": "HTML, CSS từ Zero đến Hero",
+            "thi1": 10,
+            "thi1_trangthai": false,
+            "thi2": 0,
+            "thi2_trangthai": true,
+            "sobaidahoc": 3,
+            "ngaydangky": "2022-04-30"
+        },
+        {
+            "id": 0,
+            "makhoahoc": "kh03",
+            "massv": "501200534",
+            "img": "3.png",
+            "name": "JavaScript Cơ Bản",
+            "thi1": 0,
+            "thi1_trangthai": false,
+            "thi2": 0,
+            "thi2_trangthai": true,
+            "sobaidahoc": 2,
+            "ngaydangky": "2022-05-01"
+        },
+        {
+            "id": 0,
+            "makhoahoc": "kh04",
+            "massv": "501200534",
+            "img": "4.png",
+            "name": "Kiến Thức Nhập Môn",
+            "thi1": 0,
+            "thi1_trangthai": false,
+            "thi2": 0,
+            "thi2_trangthai": true,
+            "sobaidahoc": 0,
+            "ngaydangky": "2022-05-10"
+        },
+        {
+            "id": 0,
+            "makhoahoc": "kh01",
+            "massv": "501200514",
+            "img": "1.png",
+            "name": "HTML, CSS từ Zero đến Hero",
+            "thi1": 10,
+            "thi1_trangthai": false,
+            "thi2": 10,
+            "thi2_trangthai": false,
+            "sobaidahoc": 2,
+            "ngaydangky": "2022-06-15"
+        },
+        {
+            "id": 0,
+            "makhoahoc": "kh04",
+            "massv": "501200514",
+            "img": "4.png",
+            "name": "Kiến Thức Nhập Môn",
+            "thi1": 10,
+            "thi1_trangthai": false,
+            "thi2": 10,
+            "thi2_trangthai": false,
+            "sobaidahoc": 1,
+            "ngaydangky": "2022-06-20"
+        },
+        {
+            "id": 0,
+            "makhoahoc": "kh02",
+            "massv": "501200514",
+            "img": "2.png",
+            "name": "Xây Dựng Website với ReactJS",
+            "thi1": 10,
+            "thi1_trangthai": false,
+            "thi2": 0,
+            "thi2_trangthai": false,
+            "sobaidahoc": 0,
+            "ngaydangky": "2022-06-20"
+        },
+        {
+            "id": 0,
+            "makhoahoc": "kh03",
+            "massv": "501200514",
+            "img": "3.png",
+            "name": "JavaScript Cơ Bản",
+            "thi1": 0,
+            "thi1_trangthai": false,
+            "thi2": 0,
+            "thi2_trangthai": false,
+            "sobaidahoc": 0,
+            "ngaydangky": "2022-06-24T09:20:08.083Z"
+        },
+        {
+            "id": 0,
+            "makhoahoc": "kh05",
+            "massv": "501200514",
+            "img": "5.png",
+            "name": "Responsive Với Grid System",
+            "thi1": 0,
+            "thi1_trangthai": false,
+            "thi2": 0,
+            "thi2_trangthai": false,
+            "sobaidahoc": 0,
+            "ngaydangky": "2022-06-24T10:08:37.732Z"
+        }
+    ]
+    
+        
+}
