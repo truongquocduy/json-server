@@ -76,18 +76,18 @@ server.post('/register', (req, res) => {
       const id = req.body.id
       const password = req.body.password
   
-      if (isAuthenticated({id, password}) === true) {
-          const access_token = createToken({id, password})
-          res.status(200).json({
-            status: 200,
-            message: "Success",
-            data: {
-              access_token,
-              id
-            }
-          })
+      if (isAuthenticated({id, password}) === false) {
+        return
       }
-      
+      const access_token = createToken({id, password})
+      res.status(200).json({
+        status: 200,
+        message: "Success",
+        data: {
+          access_token,
+          id
+        }
+      })
   })
   //Kiểm tra Token
   server.use('/auth',(req, res, next) => {
@@ -509,6 +509,11 @@ server.get('/studyings/:mssv', (req, res) => {
               'studying': db.studyings.filter((item)=>item.massv == mssv)
             }
           })
+    } else {
+      return res.status(401).json({
+        status: 401,
+        message: "Id không tồn tại",
+      })
     }
   })
 server.post('/studyings', (req, res) => {
